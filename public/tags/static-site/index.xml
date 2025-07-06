@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Static-Site on rodfmarin.github.io</title>
-    <link>http://localhost:1313/tags/static-site/</link>
+    <link>https://rodfmarin.github.io/tags/static-site/</link>
     <description>Recent content in Static-Site on rodfmarin.github.io</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jul 2025 21:32:57 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rodfmarin.github.io/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#34;HelloWorld&#34;; or, &#34;An Interesting Thing Happened On The Way To The Static Site&#34;</title>
-      <link>http://localhost:1313/posts/testing/</link>
+      <link>https://rodfmarin.github.io/posts/testing/</link>
       <pubDate>Sat, 05 Jul 2025 21:32:57 -0700</pubDate>
-      <guid>http://localhost:1313/posts/testing/</guid>
+      <guid>https://rodfmarin.github.io/posts/testing/</guid>
       <description>&lt;h2 id=&#34;origins&#34;&gt;Origins:&lt;/h2&gt;
 &lt;p&gt;In 2012 I looked into running a VPS for some web hosting.  Intended to just host a personal blog and some other projects.  I chose &lt;a href=&#34;https://www.linode.com/&#34;&gt;Linode&lt;/a&gt; as AWS free trials only went so far, and I didn&amp;rsquo;t want to worry about variable costs.  Linode was great for a flat rate; offered public IPv4 addressing, load balancing, etc.  Setting up a simple LAMP stack and Fail2Ban, which was OK for me. Beyond just an initial page; I didn&amp;rsquo;t do much more than shell in occasionally to do system maintenance, or run some connectivity tests from Linode&amp;rsquo;s network to my home network.&lt;/p&gt;</description>
     </item>
