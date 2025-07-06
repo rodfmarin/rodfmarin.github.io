@@ -1,0 +1,52 @@
+baseURL: https://rodfmarin.github.io/
+languageCode: en-us
+title: rodfmarin.github.io
+theme: ["Papermod"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags
+      weight: 20
+    - identifier: posts
+      name: posts
+      url: /posts
+      weight: 30
+params:
+  env: production
+  defaultTheme: "dark"
+  disableThemeToggle: true
+  assets:
+    disableFingerprinting: true
+  showShareButtons: false
+  mainSections:
+    - posts
+  homeInfoParams:
+    Title: 👋 Hi, I'm Rod! 
+    Content: I'm a Software Engineer that specializes in tools, automation and developer experience. I love to build things that make life easier for developers and users alike.
+  socialIcons:
+    - name: "linkedin"
+      url: "www.linkedin.com/in/rodrigo-marin-iii"
+    - name: "github"
+      url: "https://github.com/rodfmarin"
+    - name: "x"
+      url: "https://x.com/__ItsRod"
+  outputs:
+    home:
+    - HTML
+    - RSS
+    - JSON
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
